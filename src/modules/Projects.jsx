@@ -340,9 +340,25 @@ export default function Projects() {
           <div className="card">
             <div className="box">
               <div className="content">
-                <a href="https://github.com/robingrit/">
+                <a href="https://github.com/robingrit/vite-profile-deployment">
                   <div className="image-Colum">
                     <h2>06</h2>
+                    <img src={github_url} alt="Github logo" />
+                  </div>
+                </a>
+                <h3>Testing Mockito</h3>
+                <p>
+                  Testing in Mockito and Junit5 in Java.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="box">
+              <div className="content">
+                <a href="https://github.com/robingrit/">
+                  <div className="image-Colum">
+                    <h2>07</h2>
                     <img src={github_url} alt="Github logo" />
                   </div>
                 </a>
