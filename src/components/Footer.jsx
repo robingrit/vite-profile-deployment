@@ -7,21 +7,25 @@ export default function Footer() {
   return (
     <footer>
       <div className="footwrapper">
-        <div className="footlinks">
-          <a href="mailto:torsten.lareke@hotmail.se">
-            <img width="35px" src={email_url} alt="Email icon" />
-          </a>
-          <p>robin.nilsson@gritacademy.se</p>
-        </div>
-        <div className="footlinks">
-          <img width="35px" src={phone_url} alt="Phone icon" />
-          <p>+4673 5513 767</p>
-        </div>
-        <div className="footlinks">
+      <div className="footlinks">
           <a href="https://www.linkedin.com/in/robin-nilsson-24a3a61ab/">
             <img width="35px" src={linkedin_url} alt="Linkedin img" />
           </a>
         </div>
+        <div className="footlinks">
+          <a href="mailto:robin.nilsson@gritacademy.se">
+            <img width="35px" src={email_url} alt="Email icon" />
+          
+          <p>robin.nilsson@gritacademy.se</p>
+          </a>
+        </div>
+        <div className="footlinks">
+          <a href="tel:+46735513767">
+          <img width="35px" src={phone_url} alt="Phone icon" />
+          <p>+4673 5513 767</p>
+          </a>
+        </div>
+        
       </div>
       <p>This website is programmed and designed by me.</p>
     </footer>

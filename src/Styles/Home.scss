@@ -257,9 +257,21 @@ main {
 footer {
     grid-column: 1/4;
     grid-row: 3/4;
-
+    z-index:  99999;
     background-color: $side_bgcolor;
     border-top: 5px solid $side_bordercolor;
+}
+.footlinks a {
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+}
+
+.footlinks a img {
+    float: left;
+    padding-right: 10px;
+
 }
 
 footer>p {
@@ -278,10 +290,11 @@ footer>p {
 }
 
 .footlinks {
-    display: flex;
+    display: inline-block;
     align-items: center;
     gap: 5px;
     padding-bottom: 30px;
+   
 }
 
 //Projects
@@ -292,7 +305,8 @@ footer>p {
     flex-flow: row wrap;
     //border: #040d19 solid 5px;
     align-content: start;
-    height: 500px;
+    
+    overflow: auto;
     
     justify-content: center;
     
@@ -412,6 +426,7 @@ footer>p {
     grid-template-columns: repeat(12, 1fr );
     grid-template-rows: repeat(2, 150px );
     gap: 20px;
+    min-height: 350px;
      
 }
 
