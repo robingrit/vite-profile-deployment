@@ -336,7 +336,7 @@ export default function Projects() {
           <div className="card">
             <div className="box">
               <div className="content">
-                <a href="https://github.com/robingrit/vite-profile-deployment">
+                <a href="https://github.com/robingrit/Bank">
                   <div className="image-Colum">
                     <h2>06</h2>
                     <img src={github_url} alt="Github logo" />
