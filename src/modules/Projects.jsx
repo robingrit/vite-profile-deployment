@@ -31,10 +31,70 @@ export default function Projects() {
     "../media/projects/QrCode/Qr-Code-Website.png",
     import.meta.url
   );
+  const Filmdatabase = new URL(
+    "../media/projects/DatabaseSql/FilmDataBase.png",
+    import.meta.url
+  );
 
   return (
     <>
       <div className="grid-container">
+      <div className="grid-item-1">
+          <div className="grid-item-2-content">
+            <p>Featured Project</p>
+            <h3>Tamagotchi</h3>
+            <div className="grid-item-1-text">
+              <p className="grid-item-1-p">
+                Project Tamagotchi. It is website made with javascript. It is a
+                basic verion of the old pouplar Tamagotchi game I made this when
+                i started to learn javascript. It was fun to make and good
+                practice project.
+              </p>
+            </div>
+            <div>
+              <img
+                src={js_url}
+                alt="JavaScript Logo"
+                className="project-icon-size"
+              />
+              <img
+                src={html_url}
+                alt="html Logo"
+                className="project-icon-size"
+              />
+              <img
+                src={css_url}
+                alt="html Logo"
+                className="project-icon-size"
+              />
+              <div>
+                <a
+                  target="_blank"
+                  href="https://github.com/robingrit/JAVA21-Robin-tamagotchi"
+                >
+                  <img
+                    src={github_url}
+                    alt="Github Logo"
+                    className="project-icon-size"
+                  />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://robingrit.github.io/JAVA21-Robin-tamagotchi/"
+                >
+                  <img
+                    src={opentab_url}
+                    alt="Github Logo"
+                    className="project-icon-size"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="grid-item-2-img">
+            <img className="grid-item-imagestyle" src={tamplaceholder} alt="" />
+          </div>
+        </div>
         <div className="grid-item-1">
           <div className="grid-item-1-content">
             <p>Featured Project</p>
