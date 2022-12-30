@@ -268,6 +268,18 @@ footer>p {
     justify-content: center;
     padding-bottom: 40px;
 }
+.footlinks a {
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+}
+
+.footlinks a img {
+    float: left;
+    padding-right: 10px;
+
+}
 
 .footwrapper {
     display: flex;

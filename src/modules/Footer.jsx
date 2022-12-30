@@ -8,14 +8,16 @@ export default function Footer() {
     <footer>
       <div className="footwrapper">
         <div className="footlinks">
-          <a href="mailto:torsten.lareke@hotmail.se">
+          <a href="mailto:robin96.malmo@gmail.com">
             <img width="35px" src={email_url} alt="Email icon" />
           </a>
           <p>robin96.malmo@gmail.com</p>
         </div>
         <div className="footlinks">
+          <a href="tel:5554280940">
           <img width="35px" src={phone_url} alt="Phone icon" />
           <p>+4673 5513 767</p>
+          </a>
         </div>
         <div className="footlinks">
           <a href="https://www.linkedin.com/in/robin-nilsson-24a3a61ab/">
