@@ -17,6 +17,8 @@ export default function Projects() {
     import.meta.url
   );
   const github_url = new URL("../media/skills/github.png", import.meta.url);
+  const MySql = new URL("../media/skills/mysql_small.png", import.meta.url);
+  
 
   const portait_url = new URL("../media/home/profilbild.png", import.meta.url);
   const FoodSearch = new URL(
@@ -42,35 +44,29 @@ export default function Projects() {
       <div className="grid-item-1">
           <div className="grid-item-2-content">
             <p>Featured Project</p>
-            <h3>Tamagotchi</h3>
+            <h3>MySql FilmDataBase</h3>
             <div className="grid-item-1-text">
               <p className="grid-item-1-p">
-                Project Tamagotchi. It is website made with javascript. It is a
-                basic verion of the old pouplar Tamagotchi game I made this when
-                i started to learn javascript. It was fun to make and good
-                practice project.
+              The project database is a film database made using SQL. It follows the Third Normal Form (3NF) rule to ensure the integrity of the data. I learned the fundamentals of SQL and how to connect it to a Java program while working on this project.
+               It helped me develop my skills in SQL and database design.
               </p>
             </div>
             <div>
               <img
-                src={js_url}
-                alt="JavaScript Logo"
+                src={java_url}
+                alt="Java Logo"
                 className="project-icon-size"
               />
               <img
-                src={html_url}
-                alt="html Logo"
+                src={MySql}
+                alt="MySql Logo"
                 className="project-icon-size"
               />
-              <img
-                src={css_url}
-                alt="html Logo"
-                className="project-icon-size"
-              />
+              
               <div>
                 <a
                   target="_blank"
-                  href="https://github.com/robingrit/JAVA21-Robin-tamagotchi"
+                  href="https://github.com/robingrit/SQLFilmData"
                 >
                   <img
                     src={github_url}
@@ -80,7 +76,7 @@ export default function Projects() {
                 </a>
                 <a
                   target="_blank"
-                  href="https://robingrit.github.io/JAVA21-Robin-tamagotchi/"
+                  href="https://github.com/robingrit/SQLFilmData"
                 >
                   <img
                     src={opentab_url}
@@ -92,7 +88,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="grid-item-2-img">
-            <img className="grid-item-imagestyle" src={tamplaceholder} alt="" />
+            <img className="grid-item-imagestyle" src={Filmdatabase} alt="" />
           </div>
         </div>
         <div className="grid-item-1">
